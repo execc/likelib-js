@@ -1,0 +1,12 @@
+[requires]
+boost/1.72.0@heshu/stable
+openssl/1.1.1d@heshu/stable
+leveldb/1.22.0@heshu/stable
+evmone/0.4.0@heshu/stable
+secp256k1/1.0@heshu/stable
+
+[options]
+boost:shared=False
+
+[generators]
+cmake_paths

@@ -1,0 +1,29 @@
+BasedOnStyle: Mozilla
+
+AlwaysBreakAfterDefinitionReturnType: None
+AlwaysBreakAfterReturnType: None
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: true
+  AfterControlStatement: false
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakBeforeTernaryOperators: false
+BreakInheritanceList: BeforeColon
+BreakStringLiterals: false
+ColumnLimit: 120
+IndentWrappedFunctionNames: false
+IndentWidth: 4
+MaxEmptyLinesToKeep: 2
+TabWidth: 40
+UseTab: Never
