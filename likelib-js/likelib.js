@@ -339,7 +339,7 @@ class Likelib
 
 
     findBlock(param, cb) {
-        if(Object.prototype.toString.call(x) === "[object String]") {
+        if(Object.prototype.toString.call(param) === "[object String]") {
             this._doCallRequest("find_block", {'hash': param}, cb);
         }
         else {
